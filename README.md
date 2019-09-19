@@ -9,3 +9,8 @@ pour cela il utilise des proprietes tel que:
 -size: la taille de l'icon.
 
 Animatedlist
+Il permet d'animer les elements d'une liste lorsqu'ils sont inseres ou supprimes.
+
+Placeholder
+Il permet d'afficher un rendu en attendant qu'une actionnsoit effectue.
+
