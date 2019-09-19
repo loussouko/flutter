@@ -18,7 +18,7 @@ AnimatedOpacity est widget qui anime l'opacité compris entre 0 et 1 , il rend l
 
 
 ## AnimatedPadding
-Ce widget anime la marge intérieur 
+Ce widget anime la marge d'un padding. Il peut augmenter les marges et les reduires de meme que modifier la forme du padding.
 
 ## AnimatedPosition
 Il anime le positionnement d'un widget que ce soit haut, bas, gauche, droite 
@@ -28,7 +28,7 @@ Anime le toggle (true,false) du switch
 
 
 ## ConstraintBox 
-ConstraintBox limite la taille maximale 
+ConstraintBox limite la taille maximale d'un widget.
 
 
 ## Draggable
@@ -40,16 +40,16 @@ ce widget Permet d'hériter des informations d'un autre widget
 
 
 ## MediaQuery 
-il permet d'adapter notre appli sur tout type d'écran 
+il permet d'adapter notre application sur tous type d'ecran, modifier le portrait, la taille, la largeur et plein d'autre chose.
 
 ## RichText
 Il permet la mise en forme d'un Contenu  type texte c'est a dire mettre en evidence un text par rapport aux autres
 
 ## ReorderableListView 
-Construit une liste dont les éléments peuvent changé de position 
+Permet de changer l'ordre d'un element d'une liste view c'est dire le deplacer avec un autre element.
 
 ## Stack 
-Un widget qui empile ses enfants 
+Un widget qui supperpose les elements les un sur les autres.
 
 
 ## Placeholder
@@ -57,14 +57,14 @@ Placeholder est utilisé pour le développement il permet de réserver un endroi
 
 
 ## Spacer
-Spacer est utilisé pour l'espacement 
+Spacer est utilisé pour l'espacement entre les widgets.
 
 ## Semantics 
-utile pour les donnée de metade l'app
+Utiliser pour donner des informations sur un widget. C'est un metadata
 
 
 ## IndexedStack
-Est un stack qui donne des index a ses enfants 
+Est un stack qui donne des index a ses enfant. Il permet de les afficher les uns apres les autres
 
 
 ## AspectRatio
