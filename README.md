@@ -14,7 +14,7 @@ Il permet d'animer les elements d'une liste lorsqu'ils sont inseres ou supprimes
 
 
 ## AnimatedOpacity 
-AnimatedOpacity est widget qui anime l'opacité compris entre 0 et 1
+AnimatedOpacity est widget qui anime l'opacité compris entre 0 et 1 , il rend l'element visible et invisible
 
 
 ## AnimatedPadding
@@ -43,7 +43,7 @@ ce widget Permet d'hériter des informations d'un autre widget
 il permet d'adapter notre appli sur tout type d'écran 
 
 ## RichText
-Il permet la mise en forme d'un Contenu r type texte 
+Il permet la mise en forme d'un Contenu  type texte c'est a dire mettre en evidence un text par rapport aux autres
 
 ## ReorderableListView 
 Construit une liste dont les éléments peuvent changé de position 
