@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:td2/eleventh.dart';
+import 'package:td2/twelveth.dart';
 import 'first.dart';
 import 'second.dart';
 import 'third.dart';
@@ -50,11 +51,12 @@ class _MyHomePageState extends State<MyHomePage> {
     EigthPage(title: 'animated builder'),
     NinethPage(title: 'backdrop filter'),
     TenthPage(title: 'fadeInImage'),
-    EleventhPage(title: 'fittedbox',)
+    EleventhPage(title: 'fittedbox',),
+    TwelevethPage(title: 'floating')
     ];
 
   List<String> text = ['connexion', 'page bougante', 'text', 'Animated container', 'custom paint',
-    'Absorb pointer', 'align', 'animated builder', 'backdrop filter', 'fadeInimage', 'fittedbox'];
+    'Absorb pointer', 'align', 'animated builder', 'backdrop filter', 'fadeInimage', 'fittedbox', 'floating'];
 
   void NewPage(Widget wi)
   {
