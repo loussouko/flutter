@@ -72,3 +72,21 @@ ce widget tente de redimensionner son enfant selon un rapport hauteur/largeur
 
 ## LimitedBox
 Limite L'occupation De l'espacement  de ses enfants
+
+## AbsorbPointer
+Il permet de desactiver l'effet d'un clic sur un widget.Lorsque on clique sur un bouton on voit un effet et cela effectue des actions mais lorsaue il est aplliquer il desactive tous cela. on peut le voir sur Inkwell, raised button, gesture detector etc..
+
+## Align
+Align permet de placer des widgets a un endroit precis. Pour ce faire nous utilisons la propriete alignementqui prend les proprietes : Alignement.bottomRight, Alignement.bottomLeft...
+
+## AnimationBuilder
+Il permet d'animer des widgts en permettant au widgets d'effectuer une rotation sur lui meme.Prenons l'exemple d'un container que nous voulons faire pivoter.Nous lui donnerons une animation avec la propriete repeat et un builder avec transform.rotate avec la valeur de l'angle et l'enfant.
+
+## BackdropFilter
+Il est utilise pour mettre un filtre de floutage sur un widget.Par exemple blur apllique um effet flou.
+
+## fadeInImage
+Permet d'afficher une animation avant d'afficher une image.
+
+## fadeTransition
+Il permet de regler l'opacity d'un widget.Supposons que nous avons trois widgets de couleur differente et lorsque l'application se charge nous voyons les autres widgets immediatemment mais celui sur lequel le fadeTransition est applique apparait doucement.
