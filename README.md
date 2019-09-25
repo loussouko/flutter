@@ -126,3 +126,15 @@ LayoutBuilder est un widget qui fournit les dimensions de son parent afin que no
 LayoutBuilderLa méthode du générateur de widget nous fournit BuildContextetBoxConstraints
 voici comment notre LayoutBuilderwidget de base ressemble
 BoxConstraintsnous fournit diverses options qu'il nous donnera maxWidthet maxHeightdisponible pour nous
+
+## wrap
+Un widget qui affiche ses enfants dans plusieurs exécutions horizontales ou verticales.
+
+Un Wrap présente chaque enfant et tente de placer l'enfant adjacent à l'enfant précédent dans l'axe principal, en fonction de la direction , en laissant un espace entre eux. S'il n'y a pas assez d'espace pour adapter l'enfant, Wrap crée une nouvelle exécution adjacente aux enfants existants dans l'axe transversal.
+
+Une fois que tous les enfants ont été affectés à des parcours, les enfants au sein des parcours sont positionnés en fonction de l' alignement dans l'axe principal et en fonction de crossAxisAlignment dans l'axe transversal.
+
+Les pistes elles-mêmes sont ensuite positionnées dans l'axe transversal en fonction de runSpacing et runAlignment .
+
+## transform
+Il permet d'effectuer des transformations sur un widget tel que une rotation, une translation, un zoom, et meme de transformations en 3d
