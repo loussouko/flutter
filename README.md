@@ -114,3 +114,11 @@ Il permet de donner une information sur un widget par exemple une icon. Quand tu
 
 ## Hero
 Il permet de faire une animation sur un element.Supposons nous avons une image en avatar et nous voulons voir l'image en grand sans changer de page allons nous imbriquons le tour dans un hero. Et lorsque nous cliquons sur l'image nous voyonsl'image qu s'ouvre
+
+## Expanded
+Il permet de donner de l'espace a un widget.Contrairement a flex il occupe tous l'espace disponible.
+
+## Dismissible
+Il permet d'effectuer une action sur un widget lorsque on le deplace dans une direction tel que supprimer l'element, ramener a une page d'acceuil et plein d'autre choses.
+
+
