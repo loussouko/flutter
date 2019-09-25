@@ -99,3 +99,18 @@ Le painter permet de dessiner une forme(canvas).Pour le painter, il implemente d
 
 ## AnimatedContainer
 Il permet de modifier l'aspect d'un container, lui ajouter un background, un border-raduis, modifier sa forme et plein d'autres choses.il utilise la curve et la duration.
+
+## fittedBox
+Il permet d'adapter une image dans son parent, elle peut occuper tous l'espace , la moitie, le tiers.Cela depend des proprietes qui lui sont passe
+
+## FloatingActionButton
+Il permet de placer un bouton floatant au page de notre application
+
+## PageView
+Il permet de faire circuler plusieurs page sur la meme page comme un carousel en web
+
+## Tooltip
+Il permet de donner une information sur un widget par exemple une icon. Quand tu appuis sur l'element une petite information sort.
+
+## Hero
+Il permet de faire une animation sur un element.Supposons nous avons une image en avatar et nous voulons voir l'image en grand sans changer de page allons nous imbriquons le tour dans un hero. Et lorsque nous cliquons sur l'image nous voyonsl'image qu s'ouvre
