@@ -90,3 +90,12 @@ Permet d'afficher une animation avant d'afficher une image.
 
 ## fadeTransition
 Il permet de regler l'opacity d'un widget.Supposons que nous avons trois widgets de couleur differente et lorsque l'application se charge nous voyons les autres widgets immediatemment mais celui sur lequel le fadeTransition est applique apparait doucement.
+
+## CustomPaint
+Il permet de dessiner des formes pour cela, on utilise deux objet tel que le painter et un widget enfant appele child.
+Le painter permet de dessiner une forme(canvas).Pour le painter, il implemente deux methodes:
+-paint ( canva, size)
+-bouldRepaimt : dit si l'objet doit etre repaint
+
+## AnimatedContainer
+Il permet de modifier l'aspect d'un container, lui ajouter un background, un border-raduis, modifier sa forme et plein d'autres choses.il utilise la curve et la duration.
