@@ -121,4 +121,8 @@ Il permet de donner de l'espace a un widget.Contrairement a flex il occupe tous 
 ## Dismissible
 Il permet d'effectuer une action sur un widget lorsque on le deplace dans une direction tel que supprimer l'element, ramener a une page d'acceuil et plein d'autre choses.
 
-
+## LayoutBuilder
+LayoutBuilder est un widget qui fournit les dimensions de son parent afin que nous puissions savoir combien d'espace nous avons pour le widget et que nous puissions le construire en conséquence
+LayoutBuilderLa méthode du générateur de widget nous fournit BuildContextetBoxConstraints
+voici comment notre LayoutBuilderwidget de base ressemble
+BoxConstraintsnous fournit diverses options qu'il nous donnera maxWidthet maxHeightdisponible pour nous
